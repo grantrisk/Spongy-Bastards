@@ -1,27 +1,36 @@
 body {
-    background-color: #FFBF25;
-    font-family: 'Teko', Arial, Helvetica, sans-serif;
+    background-color: #000000;
+    font-family: 'VT323', Arial, Helvetica, sans-serif;
     color: red;
     background-image: url(images/web_bg.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    background-attachment: scroll;
+    background-size:cover, contain;
     text-align: center;
+    text-transform: uppercase;
 }
 
 h1 {
-    font-size: 300%;
+    margin-top: 5vw;
+    font-size: 9vw;
 }
 
-.jumping_bastard_div {
-    margin-left: auto;
-    margin-right: auto;
-    width: 500px;
-    height: 500px;
-    /* background-color: red; */
+h1.title{
+    margin-top: -8vw;
+}
+
+h2 {
+    margin-top: -1vw;
+    font-size: 3vw;
+}
+
+h2.bottom {
+    margin-top: -3vw;
 }
 
 #spongy_bastard {
-    width: 100%;
-    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20%;
+    width: 50vw;
+    height: 50vw;
 }
