@@ -4,7 +4,8 @@ body {
     color: red;
     background-image: url(images/web_bg.png);
     background-attachment: scroll;
-    background-size:cover, contain;
+    background-size:contain;
+    background-repeat: repeat-y;
     text-align: center;
     text-transform: uppercase;
 }
