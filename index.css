@@ -28,7 +28,7 @@ h2.bottom {
     margin-top: -3vw;
 }
 
-#spongy_bastard {
+#spongy-bastard {
     margin-left: auto;
     margin-right: auto;
     margin-top: -20%;
@@ -36,14 +36,26 @@ h2.bottom {
     height: 50vw;
 }
 
-.links {
-    position: relative;
-    text-align: center;
+.link-container {
+    display: flex;
+    margin: auto;
+    width: 75%;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* background-color: indianred; */
 }
 
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.link-item {
+    position: relative;
+    /* background-color: indigo; */
+    
+}
+
+div > h3 {
+    position:absolute;
+    top: 6%;
+    left: 27%;
+    font-size: 60px;
+    /* background-color: hotpink; */
 }
