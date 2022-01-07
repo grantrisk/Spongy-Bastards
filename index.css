@@ -8,6 +8,7 @@ body {
     background-repeat: repeat-y;
     text-align: center;
     text-transform: uppercase;
+    /* -webkit-text-stroke: .1px rgb(182, 0, 0); */
 }
 
 h1 {
@@ -69,7 +70,28 @@ div > h3 {
 
 .background-img-contents {
     position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.background-img-contents-multi {
+    position: absolute;
     top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#coming-soon {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#coming-soon-multi {
+    position: absolute;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
