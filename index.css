@@ -43,13 +43,11 @@ h2.bottom {
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    /* background-color: indianred; */
+    margin-bottom: 100px;
 }
 
 .link-item {
-    position: relative;
-    /* background-color: indigo; */
-    
+    position: relative;    
 }
 
 div > h3 {
@@ -57,5 +55,21 @@ div > h3 {
     top: 6%;
     left: 27%;
     font-size: 60px;
-    /* background-color: hotpink; */
+}
+
+.info-spongy-bastard {
+    position: relative;
+    text-align: center;
+}
+
+.background-img {
+    width: 65vw;
+    height: 37vw;
+}
+
+.background-img-contents {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
