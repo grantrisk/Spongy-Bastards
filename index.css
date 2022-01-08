@@ -8,7 +8,6 @@ body {
     background-repeat: repeat-y;
     text-align: center;
     text-transform: uppercase;
-    /* -webkit-text-stroke: .1px rgb(182, 0, 0); */
 }
 
 h1 {
@@ -60,7 +59,7 @@ h2.bottom {
     top: 53%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 60px;
+    font-size: 6vw;
 } 
 
 .info-spongy-bastard {
