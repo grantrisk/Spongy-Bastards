@@ -79,6 +79,15 @@ h2.bottom {
     transform: translate(-50%, -50%);
 }
 
+.background-img-gif {
+    position: absolute;
+    width: 14vw;
+    height: auto;
+    top: 52%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+}
+
 .background-img-contents-multi {
     position: absolute;
     top: 40%;
