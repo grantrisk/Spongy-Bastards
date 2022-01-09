@@ -1,4 +1,5 @@
 body {
+    box-sizing: border-box;
     background-color: #000000;
     font-family: 'VT323', Arial, Helvetica, sans-serif;
     color: red;
@@ -86,6 +87,7 @@ h2.bottom {
     top: 52%;
     left: 65%;
     transform: translate(-50%, -50%);
+    border-radius: 10px;
 }
 
 .background-img-contents-multi {
@@ -93,6 +95,19 @@ h2.bottom {
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.types-container {
+    display: flex;
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.types-container-item {
+    width: 5vw;
+    height: auto;
 }
 
 #coming-soon {
