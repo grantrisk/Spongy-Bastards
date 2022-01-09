@@ -123,6 +123,16 @@ h2.bottom {
     height: 10vw;
 }
 
+.armory-img {
+    position: absolute;
+    width: 20vw;
+    height: auto;
+    top: 66%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
 #coming-soon {
     position: absolute;
     top: 45%;
