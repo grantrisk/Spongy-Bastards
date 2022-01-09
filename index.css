@@ -95,6 +95,7 @@ h2.bottom {
     width: 38vw;
     height: auto;
     position: absolute;
+    font-size: 1.8vw;
     top: 52%;
     left: 44%;
     transform: translate(-50%, -50%);
