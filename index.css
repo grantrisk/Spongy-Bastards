@@ -110,6 +110,19 @@ h2.bottom {
     height: auto;
 }
 
+.legendary-container {
+    display: flex;
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.legendary-container-item {
+    width: auto;
+    height: 10vw;
+}
+
 #coming-soon {
     position: absolute;
     top: 45%;
