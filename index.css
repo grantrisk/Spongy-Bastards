@@ -85,9 +85,19 @@ h2.bottom {
     width: 14vw;
     height: auto;
     top: 52%;
-    left: 65%;
+    left: 72%;
     transform: translate(-50%, -50%);
     border-radius: 10px;
+}
+
+.spongy-description {
+    color: black;
+    width: 38vw;
+    height: auto;
+    position: absolute;
+    top: 52%;
+    left: 44%;
+    transform: translate(-50%, -50%);
 }
 
 .background-img-contents-multi {
