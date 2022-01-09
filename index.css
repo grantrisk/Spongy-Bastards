@@ -110,6 +110,22 @@ h2.bottom {
     height: auto;
 }
 
+.traits-container {
+    width: 50vw;
+    height: 18vw;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.traits-container-item {
+    width: auto;
+    height: 5vw;
+}
+
 .legendary-container {
     display: flex;
     position: absolute;
