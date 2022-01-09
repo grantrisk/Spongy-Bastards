@@ -116,6 +116,7 @@ h2.bottom {
     display: flex;
     flex-wrap: wrap;
     position: absolute;
+    justify-content: center;
     top: 56%;
     left: 50%;
     transform: translate(-50%, -50%);
