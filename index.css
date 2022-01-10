@@ -121,21 +121,13 @@ h2.bottom {
     height: auto;
 }
 
-.traits-container {
-    width: 50vw;
-    height: 18vw;
-    display: flex;
-    flex-wrap: wrap;
+.traits-image {
+    width: 40vw;
+    height: auto;
     position: absolute;
-    justify-content: center;
-    top: 56%;
+    top: 52%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-
-.traits-container-item {
-    width: auto;
-    height: 5vw;
 }
 
 .legendary-container {
