@@ -184,19 +184,20 @@ h2.bottom {
 }
 
 .team-panel {
-    background-color: rgba(185, 138, 36, 0.7);
+    background-color: rgba(255, 255, 255, 0.4);
     padding: 2vw;
     width: 70%;
     margin: auto;
     margin-top: 5vw;
+    color: black;
+    border-radius: 5px;
 }
 .team-panel-header {
-    /* background-color: firebrick; */
     margin-top: 1vw;
+    font-size: 4vw;
 }
 
 .team-panel-description {
-    /* background-color: forestgreen; */
     font-size: 2vw;
 }
 
@@ -206,11 +207,24 @@ h2.bottom {
 
 .team-panel-names-container {
     display: flex;
+    gap: 20vw;
+    margin-left: 18vw;
 }
 
 .team-panel-names-item {
-    margin-left: 19vw;
     margin-top: 1vw;
+}
+
+.team-panel-skill-container {
+    display: flex;
+    gap: 20vw;
+    margin-top: -1vw;
+    margin-left: 18.6vw;
+
+}
+
+.team-panel-skill-item {
+    font-size: 2vw;
 }
 
 #coming-soon {
