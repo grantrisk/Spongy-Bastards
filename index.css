@@ -183,6 +183,36 @@ h2.bottom {
     padding: 2vw;
 }
 
+.team-panel {
+    background-color: rgba(185, 138, 36, 0.7);
+    padding: 2vw;
+    width: 70%;
+    margin: auto;
+    margin-top: 5vw;
+}
+.team-panel-header {
+    /* background-color: firebrick; */
+    margin-top: 1vw;
+}
+
+.team-panel-description {
+    /* background-color: forestgreen; */
+    font-size: 2vw;
+}
+
+.team-panel-images-container-item {
+    height: 25vw;
+}
+
+.team-panel-names-container {
+    display: flex;
+}
+
+.team-panel-names-item {
+    margin-left: 19vw;
+    margin-top: 1vw;
+}
+
 #coming-soon {
     position: absolute;
     top: 45%;
