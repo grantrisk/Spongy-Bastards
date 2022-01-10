@@ -171,6 +171,18 @@ h2.bottom {
     border-radius: 10px;
 }
 
+.armory-description-container {
+    display: flex;
+    align-items: center;
+    width: 75%;
+    height: 25vw;
+    margin: auto;
+    font-size: 2vw;
+    margin-top: 5vw;
+    background-color: rgb(219, 155, 16);
+    border-radius: 5px;
+}
+
 #coming-soon {
     position: absolute;
     top: 45%;
