@@ -130,17 +130,12 @@ h2.bottom {
     transform: translate(-50%, -50%);
 }
 
-.legendary-container {
-    display: flex;
+.legendary-img {
+    width: 40vw;
     position: absolute;
     top: 52%;
-    left: 50%;
+    left: 52%;
     transform: translate(-50%, -50%);
-}
-
-.legendary-container-item {
-    width: auto;
-    height: 10vw;
 }
 
 .armory-img {
