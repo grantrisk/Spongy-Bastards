@@ -167,12 +167,22 @@ h2.bottom {
     display: flex;
     align-items: center;
     width: 75%;
-    height: 25vw;
+    height: 40vw;
     margin: auto;
     font-size: 2vw;
     margin-top: 5vw;
-    background-color: rgb(219, 155, 16);
     border-radius: 5px;
+    background-image: url(images/Screen\ Shot\ 2022-01-10\ at\ 10.19.23\ AM.png);
+    background-size: contain;
+}
+
+.armory-description-item-h2 {
+    margin-top: 0vw;
+}
+
+.armory-description-item {
+    background-color: black;
+    opacity: 75%;
 }
 
 #coming-soon {
