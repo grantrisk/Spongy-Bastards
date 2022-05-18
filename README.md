@@ -2,11 +2,9 @@
 
 <h1 align="center">Spongy Bastards Website</h3>
 
-<p align="center">
-  A static webpage showing off the NFT collection, Spongy Bastards.
-  <br />
-  <br />
-</p>
+A static [webpage](https://grantrisk.github.io/Spongy-Bastards/ "Spongy Bastards") showing off the NFT collection, Spongy Bastards.
+<br />
+<br />
 
 ## Built With
 
